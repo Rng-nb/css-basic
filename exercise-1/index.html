@@ -5,11 +5,37 @@
     <title>练习-1：css selector</title>
     <style>
        /* you can test your css at here */
+       .section>.title {
+           color: red;
+       }
+       /*
+       .section .title所有
+       .section>.title同级所有
+       .section.title 同时含两个类
+       .section,.title 设置两个类相同
+       */   
+
+      /*!important>行内样式>id选择器>类选择器>标签选择器*/
+
+        .sectiontest .titletest { color:red; }
+        #titletest { color:green; }
+        .titletest { color:yellow !important; }
+        .sectiontest > h1 { color:blue; }
     </style>
 </head>
 <body>
     <div class="section">
         <h1 id="title" class="title">title</h1>
+        <h1 id="title" class="title">title</h1>
+        <h1 id="title" class="title">title</h1>
+        <div class="test1">
+            <h1 id="h2" class="title">title</h1>
+        </div>
+        <h1 id="title" class="title">title</h1>
+
+    </div>
+    <div class="sectiontest">
+        <h1 id="titletest" class="titletest" style="color: blue;">title</div>
     </div>
 </body>
 </html>
