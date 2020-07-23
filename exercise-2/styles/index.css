@@ -65,6 +65,7 @@ p::first-line {
     top: 80%;
     width: 60%;
     color: black;
+    opacity: 0.75;
     background-color: #fff;
 }
 
