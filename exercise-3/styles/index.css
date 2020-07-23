@@ -96,6 +96,7 @@ p {
     color: white;
     display: inline-block;
     text-decoration: none;
+    padding: 14px;
 }
 
 .share a:hover {
