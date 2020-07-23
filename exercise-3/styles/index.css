@@ -23,6 +23,9 @@ body {
     font-weight: 700;
     letter-spacing: 4px;
 }
+.global {
+    visibility: hidden;
+}
 
 #banner {
     background-image: url("../img/background-img.jpeg");
