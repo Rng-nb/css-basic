@@ -58,6 +58,7 @@ p::first-line {
     display: block;
     font-family: 'Playfair Display', serif;
     font-size: 14px;
+    font-style: oblique;
     line-height: 14px;
     margin-left: 20px;
     padding: 10px;
