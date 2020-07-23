@@ -47,6 +47,8 @@ p::first-line {
 }
 
 .image {
+    /*一定要先加载图片再对图片进行设置，不然无法显示*/
+    background-image: url(../img/background-img.jpg);
     background-size: cover;
     background-position: center;
     height: 300px;
