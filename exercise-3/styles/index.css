@@ -98,6 +98,7 @@ p {
     display: inline-block;
     text-decoration: none;
     padding: 14px;
+    margin: 10px;
 }
 
 .share a:hover {
