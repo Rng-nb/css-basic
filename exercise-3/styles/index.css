@@ -46,6 +46,13 @@ h1 {
     padding: 40px;
     text-align: center;
     margin: 0 auto;
+    width: 500px;
+    height: 800px;
+    overflow: auto;
+}
+/*隐藏滚动条*/
+#main::-webkit-scrollbar {
+    width: 0px;
 }
 
 h2 {
