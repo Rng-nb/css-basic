@@ -69,4 +69,7 @@ p::first-line {
     opacity: 0.75;
     background-color: #fff;
 }
-
+.caption a:hover {
+    text-decoration: none;
+    color:purple;
+}
